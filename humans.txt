@@ -11,5 +11,5 @@
 
   Last Update: 2014-04-20
   Language: Spanish
-  Bootstrap, jQuery, jQuery.parallax plugin
+  Bootstrap, jQuery, jQuery.easing plugin
   Brackets.io, GIMP, Phatch
