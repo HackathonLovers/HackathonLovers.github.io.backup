@@ -1,0 +1,29 @@
+section {
+    min-height: 900px;
+}
+
+#unete {
+    background: url(../img/background/bg-1.jpg) no-repeat center 0px;
+    z-index: 0;
+}
+
+#siguenos {
+    background: url(../img/background/bg-2.jpg) no-repeat center 0px;
+}
+
+#equipo {
+    background: url(../img/background/bg-3.jpg) no-repeat center 0px;
+} 
+
+#contactanos {
+    background: url(../img/background/bg-4.jpg) no-repeat center 0px;
+}
+
+
+.container a {
+    color: #fff;
+}
+
+.container a {
+    text-decoration: none;
+}

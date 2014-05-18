@@ -4,11 +4,12 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     font-family: 'Roboto', sans-serif;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 200;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+    text-shadow: 0 1px 3px #333;
 }
 
 .jumbotron {
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn.btn-start {
-    background: rgba(202, 0, 0, 0.3);
+    background: rgba(202, 0, 0, 0.6);
     border: 4px solid #ca0000;
     color: #fff;
     padding: 0.3em;
@@ -39,54 +40,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn.btn-start:hover {
-    background: rgba(202, 0, 0, 0.7);
-    color: #fff;
+    background: rgba(202, 0, 0, 0.6);
+    color: #333;
 }
 
 section {
-    padding-top: 1em;
-    padding-bottom: 3em;
+    padding-top: 3em;
     width: 100%;
     min-width: 100%;
     position: relative;
     overflow: hidden;
     background-size: cover;
-    min-height: 900px;
 }
 
 section h1{
     color: #333;
 }
 
-#unete {
-    background: url(../img/background/bg-1.jpg) no-repeat center 0px;
-    z-index: 0;
-}
-
-#siguenos {
-    background: url(../img/background/bg-2.jpg) no-repeat center 0px;
-}
-
-#equipo {
-    background: url(../img/background/bg-3.jpg) no-repeat center 0px;
-} 
-
-#contactanos {
-    background: url(../img/background/bg-4.jpg) no-repeat center 0px;
-}
-
 .color-white {
     color: #fff;
+    text-shadow: 3px 3px 10px #cc0000, -3px 3px 10px #cc0000, 3px -3px 10px #cc0000, -3px -3px 10px #cc0000;
+}
+
+.color-grey {
+    color: #333;
+    text-shadow: 3px 3px 10px #cc0000, -3px 3px 10px #cc0000, 3px -3px 10px #cc0000, -3px -3px 10px #cc0000;
+}
+
+.color-red   {
+    color: #cc0000;
+    text-shadow: 3px 3px 10px #333, -3px 3px 10px #333, 3px -3px 10px #333, -3px -3px 10px #333;
 }
 
 .container a {
-    font-size: 150%;
-    text-shadow: 0 1px 3px rgba(250, 250, 250, .9);
+    color: #cc0000;
 }
 
 .container a:hover {
-    color: #ca0000;
-    text-decoration: none;
+    color: #333;
+}
+
+.center {
+    text-align: center;
+}
+
+.role {
+    font-size: 150%;
 }
 
 .panel {
@@ -116,13 +115,9 @@ section h1{
     max-width: 80%;
 }
 
-.role {
-    font-size: 150%;
-}
-
 /****************** NAVIGATION STYLES *************************/
 .navbar {
-    background-color: rgba(250, 250, 250, 0.9);
+    background-color: rgba(230, 230, 230, 1);
     border: 0px;
     box-shadow: 0px -3px 0px rgba(50, 50, 50, 0.2) inset;
 }
@@ -137,9 +132,8 @@ navbar-fixed-top {
     color: #ca0000;
     text-decoration: none;
     text-shadow: none;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 .navbar .nav > .active > a, 
@@ -152,6 +146,7 @@ navbar-fixed-top {
     color: #333;
     font-weight: 400;
     box-shadow: 0px -3px 0px rgba(50, 50, 50, 0.2) inset;
+    font-weight: bold;
 }
 
 .fixed{
@@ -162,10 +157,12 @@ navbar-fixed-top {
 }
 
 footer{
+    color: #cc0000;
     position: static;
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: rgba(250, 250, 250, 0.9);
+    background-color: rgba(230, 230, 230, 1);
     border: 0px;
+    box-shadow: 0px 3px 0px rgba(50, 50, 50, 0.2) inset;
 }
