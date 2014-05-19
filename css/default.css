@@ -9,15 +9,14 @@ body {
 
 h1 {
     font-weight: 200;
-    padding-bottom: 0.5em;
-    text-shadow: 0 1px 3px #333;
+    padding-bottom: 0.5em;   
 }
 
 h2 {
     font-weight: 150;
     color: #cc0000;
-    text-shadow: 0 1px 3px #333;
 }
+
 .jumbotron {
     background: none;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px;
