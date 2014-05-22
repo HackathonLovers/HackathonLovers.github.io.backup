@@ -1,29 +1,36 @@
-section {
-    min-height: 900px;
+#unete, #equipo {
+    background-color: rgba(230, 230, 230, 0);
 }
 
-#unete {
-    background: url(../img/background/bg-1.jpg) no-repeat center 0px;
-    z-index: 0;
+#siguenos, #contactanos {
+    background-color: rgba(230, 230, 230, 1);
 }
 
-#siguenos {
-    background: url(../img/background/bg-2.jpg) no-repeat center 0px;
+.role {
+    font-size: 125%;
 }
 
-#equipo {
-    background: url(../img/background/bg-3.jpg) no-repeat center 0px;
-} 
+@media screen and (min-width: 2000px) {
 
-#contactanos {
-    background: url(../img/background/bg-4.jpg) no-repeat center 0px;
-}
+    section {
+        min-height: 900px;
+    }
 
+    #unete {
+        background: url(../img/background/bg-1.jpg) no-repeat center 0px;
+        z-index: 0;
+    }
 
-.container a {
-    color: #fff;
-}
+    #siguenos {
+        background: url(../img/background/bg-2.jpg) no-repeat center 0px;
+    }
 
-.container a {
-    text-decoration: none;
+    #equipo {
+        background: url(../img/background/bg-3.jpg) no-repeat center 0px;
+    } 
+
+    #contactanos {
+        background: url(../img/background/bg-4.jpg) no-repeat center 0px;
+    }
+
 }
