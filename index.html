@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hackathon Lovers es un grupo creado por y para amantes de hackathones. La idea del grupo es juntarse de vez en cuando para realizar un hackathon entre todos los participantes. La intención es no discriminar ningún lenguaje de programación, y que los hackathones sirvan para aprender nuevas herramientas y nuevos procedimientos, a la vez que se afiancen lazos con otros profesionales.">
     <meta name="author" content="Hackalover Team">
+    <meta name="google-site-verification" content="u0dkjrHS0gVGBzE3mbsn4q3Xd2xEQbd3lTlCcKaMfME" />
 
     <!-- styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -232,16 +233,20 @@
         // hide menu after click on mobile
         $('.navbar .nav > li > a').click(function(){
             
-            $('.navbar-collapse.navbar-ex1-collapse.in').removeClass('in').addClass('collapse').css('height', '0');
+            $('.navbar-collapse.navbar-ex1-collapse.in')
+              .removeClass('in').addClass('collapse').css('height', '0');
         });
         
         // go to section
         $('.navbar .nav > li > a').on('click', goSection);
 
         function goSection(e){
+            /*$('.navbar .nav > li').removeClass('active');
+            $(this).addClass('active');*/
             var selectedSection = $(this).attr('href');
             var posY = $(selectedSection).offset().top;
-            $('html, body').animate({ scrollTop: posY}, {duration:speed, easing: 'easeInOutQuint'});
+            $('html, body').animate(
+              { scrollTop: posY}, {duration:speed, easing: 'easeInOutQuint'});
             e.preventDefault();
         }
         
@@ -250,7 +255,9 @@
         function parallax() {
             scrollValue = $('html').scrollTop() || $('body').scrollTop();
             $('section').each(function (){
-                $(this).css({ backgroundPosition: 'center '+((scrollValue - $(this).offset().top) * .9)+'px' });
+                $(this).css({ 
+                  backgroundPosition: 
+                    'center '+((scrollValue - $(this).offset().top) * .9)+'px' });
             });
         }
 

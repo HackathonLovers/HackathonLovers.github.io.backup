@@ -163,7 +163,6 @@ navbar-fixed-top {
     position: fixed;
     bottom: -25px;
     height: 45px
-        
 }
 
 footer{
@@ -172,7 +171,7 @@ footer{
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: rgba(230, 230, 230, 1);
+    background-color: #7090A0;
     border: 0px;
     box-shadow: 0px 3px 0px rgba(50, 50, 50, 0.2) inset;
 }
