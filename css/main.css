@@ -10,10 +10,15 @@
     font-size: 125%;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 700px) {
 
     section {
         min-height: 900px;
+    }
+  
+    .lead {
+      color: #fff;
+      text-shadow: 3px 3px 10px #cc0000, -3px 3px 10px #cc0000, 3px -3px 10px #cc0000, -3px -3px 10px #cc0000;
     }
 
     #unete {
