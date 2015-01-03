@@ -69,7 +69,7 @@
                     <h1>Dinámica</h1>
                     <p>El objetivo principal es desarrollar por <strong>equipos de hasta 3 personas</strong>, una aplicación web y/o móvil relacionada con un tema que se propondrá unos días antes del evento y que acceda al <a href="http://www.evosnap.com/?lang=es"><strong>API de Snap*</strong></a> para que poder realizar un pago con tarjeta de crédito.</p>
                     <p>El <strong>módulo de compra podrá estar desarrollado antes del hackathon</strong>, pero no el resto de la aplicación.</p>
-                    <p>A última hora, cada equipo tendrá 5 minutos para, <strong>por un lado hacer una presentación de su proyecto</strong> (problema que intenta resolver, solución adoptada, mercado al cual puede optar, competidores y mejoras con respecto a estos, de donde se sacaría el dinero, biografias de los miembros del equipo, etc. ) y <strong>por otro lado hacer una demo del mismo</strong>.</p>
+                    <p>A última hora, cada equipo tendrá 5 minutos para, <strong>por un lado hacer una presentación de su proyecto</strong> (problema que intenta resolver, solución adoptada, mercado al cual puede optar, competidores y mejoras con respecto a estos, de donde se sacaría el dinero, tecnologías usadas, biografias de los miembros del equipo, etc. ) y <strong>por otro lado hacer una demo del mismo</strong>.</p>
                     <p>Al finalizar la jornada, <strong>un jurado experto elegirá la mejor aplicación</strong>, teniendo en cuenta criterios tales como la originalidad de la idea, dificultad técnica, viabilidad del proyecto, diseño y usabilidad de la aplicación, etc.</p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
@@ -90,7 +90,7 @@
                     <br />
                     <h1>Inscripción</h1>
                     <p>Tanto el evento, como el avituallamiento (comida y bebida), es <strong>totalmente gratuito</strong>,
-                        <a href="http://www.meetup.com/Hackathon-Lovers/events/219399210/">el único requisito
+                        <a href="http://bit.ly/snaphack-in" id="link-inscripcion-1">el único requisito
                             indispensable es el estar inscrito en el meetup de Hackathon Lovers.</a> Al inscribirte
                             aceptas las <a href="BasesSnapHack.pdf">bases del concurso</a>.</p>
                 </div>
@@ -99,8 +99,8 @@
                     <br/>
                     <br/>
                     <p class="center">
-                        <a class="btn btn-start btn-default"
-                           href="http://www.meetup.com/Hackathon-Lovers/events/219399210/">INSCRÍBETE</a></p>
+                        <a class="btn btn-start btn-default" id="link-inscripcion-2"
+                           href="http://bit.ly/snaphack-in">INSCRÍBETE</a></p>
                 </div>
             </div>
         </div><!-- / CONTAINER-->
@@ -135,7 +135,8 @@
                     <br />
                     <h1>Evento</h1>
                     <h2>Fecha y lugar</h2>
-                    <p>Se celebrará <strong>el 24 de Enero de 2015</strong>, de  09:00 a 21:00 horas, <strong>en la sala Utopic_US</strong>.</p>
+                    <p>Se celebrará <strong>el 24 de Enero de 2015</strong>, de  09:00 a 21:00 horas.</p>
+                    <p>En la sala <strong>Utopic_US</strong>, Calle de la colegiata, 9, Madrid (<a href="https://www.google.es/maps/place/utopic_US/@40.412741,-3.705843,17z/data=!3m1!4b1!4m2!3m1!1s0xd4227d58772a6e1:0xf3b5fc75d6a7b133">mapa</a>).</p>
                     <h2>Agenda</h2>
                     <p>
                         <strong>09:00</strong> - Llegada de participantes.<br />
@@ -191,6 +192,67 @@
     <script>
     $(document).ready(function(){
     
+        initParams();
+        initParalax();
+    });
+    
+    var initParams = function() {
+                
+        var url = window.location.href;
+        var param = url.split('?')[1];
+        
+        if (isParamOK(param)) {
+            processParam(param);
+        }
+    }
+    
+    var isParamOK = function(param) {
+        
+        console.log("param='"+param);
+        
+        if (!param) {
+            return false;
+        }
+        
+        var paramName = param.split('=')[0];
+        console.log("paramName='"+paramName);
+        
+        if (paramName === 't') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+    var processParam = function(param) {
+        
+        var paramValue = param.split('=')[1];
+        console.log("paramValue='"+paramValue);
+        
+        var params = ["d", "c", "j", "h", "at", "ct", "jt", "ht",
+                      "af", "cf", "jf", "hf", "ag", "cg", "jg", "hg",
+                      "php", "mjs", "tv", "uxa", "htm", "jug", "gug", "aes", "py"];
+        
+        var found = false;
+        var index = 0;
+        while (!found && index < params.length) {
+            var expectedParam = params[index];
+            if ( expectedParam === paramValue) {
+                found = true;
+                console.log("paramValue='"+paramValue+"' found");
+                $('#link-inscripcion-1').attr('href', 'http://bit.ly/snaphack-in'+paramValue);
+                $('#link-inscripcion-2').attr('href', 'http://bit.ly/snaphack-in'+paramValue);
+            }
+            params++;
+        }
+        
+        if (!found) {
+                console.log("paramValue='"+paramValue+"' not found");
+        }
+    }
+
+    var initParalax = function() {
+        
         var scrollValue, speed = 2000;
         
         // hide menu after click on mobile
@@ -217,8 +279,7 @@
                 $(this).css({ backgroundPosition: 'center '+((scrollValue - $(this).offset().top) * .9)+'px' });
             });
         }
-
-    });
+    }
     </script>
     <!-- /PARALLAX -->
 
