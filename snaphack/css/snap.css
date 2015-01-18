@@ -109,6 +109,16 @@ img {
     background-color: #f7f9fa;
 }
 
+.container h2 a {
+    color: white;
+    text-decoration: underline;
+}
+
+.container h2 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .container a {
     color: #393894;
     text-decoration: underline;
