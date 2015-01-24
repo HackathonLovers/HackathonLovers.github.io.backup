@@ -1,1 +1,414 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans);body{font-family:'Open Sans';font-size:16px;background-color:#fff}.row{width:100%}.row-header{background:url(../img/bg_header.jpg) 0 0/cover no-repeat}.row-contact{background:url(../img/bg_footer.jpg) 0 0/cover no-repeat}.Header{text-align:center;height:auto;margin:0 auto;padding:2em 3em;color:#f3f3f3}@media screen and (min-width:720px){.Header{text-align:left;height:400px;width:720px}}.Header-logo{display:inline-block;width:300px;text-indent:-9999px;background:url(../img/logo.png) no-repeat;margin:0 0 1em 1em;position:absolute;left:0}@media screen and (min-width:720px){.Header-logo{position:relative;margin:0}}.Header-nav ul{display:none;margin:0;padding:0;list-style-type:none;float:right}@media screen and (min-width:720px){.Header-nav ul{display:inline-block}}.Header-nav ul li{display:inline-block;margin:1em}.Header-nav ul li a{margin:0 0 1em;padding:0 0 1em;color:#f3f3f3;text-decoration:none;text-transform:uppercase}.Header-nav ul li a:hover{border-bottom:2px solid #f3f3f3}.Header-copy{padding:2em 0;text-align:justify}@media screen and (min-width:720px){.Header-copy{width:50%;padding:2em 0 1em}}.Header-figure-laptop{display:none}@media screen and (min-width:720px){.Header-figure-laptop{display:inline-block;position:relative;left:50%;bottom:14.4em;width:70%}.Header-figure-laptop img{width:100%}}.Contact{text-align:center;margin:0 auto;color:#f3f3f3;padding:2em 4em}.Contact h2{text-align:center;color:#f3f3f3}@media screen and (min-width:720px){.Contact{text-align:left;width:720px}}.Contact-copy{padding:2em 0}@media screen and (min-width:720px){.Contact-copy{width:50%;text-align:justify}}.Team{margin:0 auto;padding:3em 0;background:#fff;text-align:center}.Team-figure{display:inline-block}.Team-figure img{width:220px}.Team-name,.Team-twitter{display:inline-block}.Team-name{font-weight:700;font-size:1.2em}.Team-twitter{color:#f26152;text-decoration:none;font-size:1.2em}.Team-twitter:hover{font-weight:700}.Footer{text-align:center;margin:0 auto;height:60px;line-height:60px}@media screen and (min-width:720px){.Footer{text-align:left;width:720px}}.Footer-copy{margin:0 2em 0 0}@media screen and (min-width:720px){.Footer-copy{float:right}}.Footer-social{margin:0}.Footer-social a{color:#f26152;text-decoration:none;padding:1em 1.5em;transition:1s color}.Footer-social a:hover{color:#222}@media screen and (min-width:720px){.Footer-social{float:left}}.btn{border:1px solid #f3f3f3;border-radius:5px;color:#f3f3f3;text-decoration:none;display:inline-block;text-align:center;padding:.75em 4em;transition:1s background-color;transition:1s color;margin:0 auto}.btn:hover{color:#f26152;background-color:#f3f3f3}@media screen and (min-width:720px){.btn{padding:.75em 5.4em}}.btn-black{border:0;background:#222;padding:.75em 3em}.text-red{color:#f26152}.text-white{color:#f3f3f3}.text-black{color:#222}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+figcaption,
+figure,
+header,
+nav,
+section {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+img {
+  border: 0;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'),local('Lato-Regular'),url(http://fonts.gstatic.com/s/lato/v11/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'),local('Lato-Regular'),url(http://fonts.gstatic.com/s/lato/v11/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+000000FF,U+0131,U+01520153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215,U+E0FF,U+EFFD,U+F000;
+}
+
+body {
+  font-family: Lato;
+  font-size: 16px;
+  background-color: #f3f3f3;
+}
+
+.center {
+  display: block!important;
+  width: 50%;
+}
+
+@media screen and (min-width:990px) {
+  .center {
+    display: inline-block!important;
+    width: 195px;
+  }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.btn {
+  border: 1px solid #f3f3f3;
+  width: 50%;
+  border-radius: 5px;
+  color: #f3f3f3;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: .75em 4em;
+  transition: .5s background-color;
+  transition: .5s color;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  color: #f3f3f3;
+  background-color: #dd4b39;
+}
+
+@media screen and (min-width:990px) {
+  .btn {
+    padding: .75em 5.4em;
+    width: 260px;
+  }
+}
+
+.btn-alpha {
+  background: 0 0;
+  color: #f3f3f3;
+  padding: .75em 3em;
+}
+
+.btn-alpha:hover {
+  color: #222;
+  background-color: #f3f3f3;
+}
+
+.btn-red {
+  border: 0;
+  background: #f3f3f3;
+  color: #dd4b39;
+  padding: .75em 3em;
+}
+
+.text-red {
+  color: #dd4b39;
+}
+
+@media screen and (min-width:720px) {
+  .col3 {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    width: 30%;
+  }
+}
+
+.row {
+  width: 100%;
+}
+
+.row-header {
+  background: linear-gradient(150deg,rgba(191,44,21,.7) 30%,rgba(219,60,48,.6) 70%) center top,url(../img/bg_header.jpg) center top;
+  background-size: cover;
+}
+
+.row-contact {
+  background: linear-gradient(150deg,rgba(69,69,69,.3) 30%,rgba(153,153,153,.3) 70%),url(../img/bg_footer.jpg);
+  background-size: cover;
+}
+
+.Header {
+  text-align: center;
+  height: auto;
+  margin: 0 auto;
+  padding: .5em 3em;
+  color: #f3f3f3;
+}
+
+@media screen and (min-width:990px) {
+  .Header {
+    text-align: left;
+    height: 340px;
+    width: 720px;
+  }
+}
+
+.Header-title {
+  display: none;
+}
+
+.Header-logo {
+  margin: .5em 0 0;
+  padding: 0;
+  width: 220px;
+  display: inline-block;
+}
+
+.Header-logo img {
+  width: 100%;
+}
+
+.Header-nav ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+@media screen and (min-width:720px) {
+  .Header-nav ul {
+    display: inline-block;
+  }
+}
+
+.Header-nav ul li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.Header-nav ul li a {
+  margin: 0 0 1em;
+  padding: 0 0 1em;
+  color: #f3f3f3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.Header-nav ul li a:hover {
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.Header-copy {
+  padding: 2em 0;
+  text-align: center;
+}
+
+@media screen and (min-width:990px) {
+  .Header-copy {
+    text-align: justify;
+    width: 50%;
+    padding: 2em 0 1em;
+  }
+}
+
+.Header-figure-laptop {
+  display: none;
+}
+
+@media screen and (min-width:990px) {
+  .Header-figure-laptop {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    bottom: 14.4em;
+    width: 70%;
+  }
+
+  .Header-figure-laptop img {
+    width: 100%;
+  }
+}
+
+.Contact {
+  text-align: center;
+  margin: 0 auto;
+  color: #f3f3f3;
+  padding: 2em 4em;
+}
+
+.Contact h2 {
+  color: #f3f3f3;
+}
+
+.Contact-copy {
+  text-align: center;
+}
+
+.Hackathones {
+  margin: 0 auto;
+  padding: 3em 0;
+  background: #eaeaea;
+  text-align: center;
+}
+
+.Hack-event {
+  display: inline-block;
+}
+
+@media screen and (min-width:720px) {
+  .Hack-event {
+    vertical-align: top;
+    width: 48%;
+  }
+}
+
+.Hack-event-media {
+  width: 300px;
+}
+
+.Hack-event-media img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width:720px) {
+  .Hack-event-media {
+    width: 80%;
+  }
+}
+
+.Hack-event-title {
+  background: #222;
+  color: #f3f3f3;
+  padding: .5em 3em;
+  border-radius: 5px;
+}
+
+.Team {
+  margin: 0 auto;
+  padding: 3em 0;
+  background: #fff;
+  text-align: center;
+}
+
+.Team-figure {
+  display: inline-block;
+  width: 200px;
+}
+
+.Team-figure img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.Team-name,
+.Team-twitter {
+  display: inline-block;
+}
+
+.Team-name {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.Team-twitter {
+  color: #dd4b39;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.Team-twitter:hover {
+  font-weight: 700;
+}
+
+.Team-role {
+  color: #222;
+  font-size: .8em;
+}
+
+.SuccessCases {
+  margin: 0 auto;
+  padding: 3em 0;
+  background: #eaeaea;
+  text-align: center;
+}
+
+.SuccessCases a {
+  color: #dd4b39;
+}
+
+.SuccessCases a:hover {
+  text-decoration: underline;
+}
+
+.SuccessCases .Team-figure {
+  width: 100px!important;
+  display: inline-block;
+}
+
+.SuccessCases-description {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2em 0 0;
+}
+
+@media screen and (min-width:720px) {
+  .SuccessCases-description {
+    text-align: left;
+  }
+}
+
+.Footer-social {
+  margin: 1em 0 0;
+  padding: 2em 4em;
+  vertical-align: top;
+}
+
+.Footer-social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Footer-social ul li {
+  margin: 1em 0;
+  text-align: center;
+}
+
+@media screen and (min-width:720px) {
+  .Footer-social ul li {
+    text-align: left;
+  }
+}
+
+.Footer-social ul li a {
+  color: #f3f3f3;
+  text-decoration: none;
+  padding: 1em 1.5em;
+  transition: .5s color;
+}
+
+.Footer-social ul li a span {
+  margin: 0 .5em;
+}
+
+.Footer-social ul li a:hover {
+  color: #dd4b39;
+}
