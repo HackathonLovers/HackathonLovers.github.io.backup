@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Adolfo Sanz de Diego -- Founder      -- @asanzdiego
+  Carlos Azaustre      -- Co-organiser -- @carlosazaustre
+  Jorge Arévalo        -- Co-organiser -- @jorgeas80
+
+# Technology Colophon
+
+  Last Update: 2014-04-20
+  Language: Spanish
+  Bootstrap, jQuery, jQuery.easing plugin
+  Brackets.io, GIMP, Phatch

@@ -1,0 +1,41 @@
+#unete, #equipo {
+    background-color: rgba(230, 230, 230, 0);
+}
+
+#siguenos, #contactanos {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.role {
+    font-size: 125%;
+}
+
+@media screen and (min-width: 700px) {
+
+    section {
+        min-height: 900px;
+    }
+  
+    .lead {
+      color: #fff;
+      text-shadow: 3px 3px 10px #cc0000, -3px 3px 10px #cc0000, 3px -3px 10px #cc0000, -3px -3px 10px #cc0000;
+    }
+
+    #unete {
+        background: url(../img/background/bg-1.jpg) no-repeat center 0px;
+        z-index: 0;
+    }
+
+    #siguenos {
+        background: url(../img/background/bg-2.jpg) no-repeat center 0px;
+    }
+
+    #equipo {
+        background: url(../img/background/bg-3.jpg) no-repeat center 0px;
+    } 
+
+    #contactanos {
+        background: url(../img/background/bg-4.jpg) no-repeat center 0px;
+    }
+
+}
