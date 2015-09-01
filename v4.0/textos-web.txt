@@ -1,0 +1,204 @@
+# TITLE
+
+Hackathon Lovers, una comunidad de desarrolladores, diseñadores, emprendedores... a los que les gustan los hackathones.
+
+Hackathon Lovers es una comunidad de desarrolladores, diseñadores, emprendedores... a los que les gustan los hackathones. Experimentan con nuevos dispositivos, lenguajes, frameworks, tecnologías, plataformas, APIs... con la intención de crear proyectos, divertirse, aprender, crear lazos con otros profesionales...
+
+
+# CABECERA
+
+SOMOS UNA COMUNIDAD DE
+DESARROLLADORES, DISEÑADORES, EMPRENDEDORES...
+ÚNETE A NUESTRO MEETUP
+
+EXPERIMENTAMOS CON NUEVOS
+DISPOSITIVOS, TECNOLOGÍAS, APIS...
+ÚNETE A NUESTRO MEETUP
+
+NUESTRO OBJETIVO PRINCIPAL ES
+DIVERTIRSE, APRENDER, CREAR LAZOS PROFESIONALES...
+ÚNETE A NUESTRO MEETUP
+
+
+# PRESENTACIÓN
+
+Un Hackathon es un concurso de desarrollo donde buscamos convertir una idea en un producto en pocas horas.
+
+Comunidad (fa-users)
+Somos desarrolladores, diseñadores, emprendedores... a los que nos gustan los hackathones.
+
+Hackers (fa-laptop)
+Experimentamos con nuevos dispositivos, lenguajes, frameworks, tecnologías, plataformas, APIs...
+
+Objetivo (fa-dot-circle-o)
+Nuestra intención es crear proyectos, divertirse, aprender, crear lazos con otros profesionales...
+
+
+# NUMEROS
+
++12 hackathones
++120 proyectos
++1200 hackers
+
+
+# HACKATHONES
+
+#PrimerHackathon
+http://hackathonlovers.tumblr.com/post/73306343548/retrospectiva-del-primer-hackathon-de
+
+#MajadaHack
+http://hackathonlovers.tumblr.com/post/91563282248/retrospectiva-del-primer-majadahack  
+
+#SummerHackVLC
+http://www.meetup.com/es/Hackathon-Lovers/events/196595462/
+
+#ThinkinThings
+http://www.meetup.com/es/Hackathon-Lovers/events/206820802/
+
+#SnapHack
+http://hackathonlovers.tumblr.com/post/109678570253/retrospectiva-del-snaphack
+
+#WinterHackVLC
+http://hackathonlovers.tumblr.com/post/113606425548/retrospectiva-del-winterhackvlc
+
+#CampusInWatch
+http://hackathonlovers.tumblr.com/post/114679399643/retrospectiva-del-campusinwatch-2015-de-c%C3%B3rdoba
+
+#DataFestMAD
+http://hackathonlovers.tumblr.com/post/123963905343/retrospectiva-del-datafestmad
+
+#hackOnBusiness
+http://hackathonlovers.tumblr.com/post/125829754083/retrospectiva-del-hackonbusiness
+
+#TWOC15
+http://hackathonlovers.tumblr.com/post/127228400268/retrospectiva-del-traity-weekend-of-code-twoc15
+
+#Hack4Europe
+http://www.meetup.com/es/Hackathon-Lovers/events/221596184/
+
+#MajadaHackJunior
+http://hackathonlovers.tumblr.com/post/127863108708/retrospectiva-del-majadahackjunior
+
+# HACKERS
+
+1. Francisco Javier Zorzano
+Experto técnico de #thinkingThings
+"Un hackathon es la mejor manera de probar un producto para desarrolladores."
+http://hackathonlovers.tumblr.com/post/100699834193/entrevista-a-francisco-javier-zorzano-experto
+
+2. Álvaro Gómez Martín
+Consultor estratégico en Google
+"En el hackathon me surgió la posibiliidad de entrar a trabajar en Google."
+http://hackathonlovers.tumblr.com/post/108349094603/casos-de-%C3%A9xito-%C3%A1lvaro-g%C3%B3mez-mart%C3%ADn
+
+3. Elena Álvarez
+Business Development Leader of Popular Payments
+"Recomendaría la experiencia a todas la empresas que quieran vivir la innovación en vivo y en directo."
+http://hackathonlovers.tumblr.com/post/112075721858/entrevista-a-elena-%C3%A1lvarez-business-development
+
+4. LowPopTicket
+Equipo finalista del #SnapHack
+"Un hackathon tiene que ser divertido, que conozcas gente, y que se trate con respeto a los participantes."
+http://hackathonlovers.tumblr.com/post/113206394288/entrevista-a-lowpopticket-equipo-finalista-del-snaphack
+
+5. Performband
+Equipo ganador del #SnapHack
+"Se puede pasar de una idea a un producto en menos de un día, y de forma divertida."
+http://hackathonlovers.tumblr.com/post/113375266063/entrevista-a-performband-equipo-ganador-del-snaphack
+
+6. Glupp
+Equipo participante del #CampusInWatch
+"Los equipos heterogéneos tienen más posibilidades de sacar un mejor trabajo."
+http://hackathonlovers.tumblr.com/post/114154358148/entrevista-a-glupp-equipo-participante-del-campusinwatch
+
+7. PillCalling
+Equipo finalista del #CampusInWatch
+"Recomendaríamos la experiencia a personas de cualquier ámbito, ya que seguro que en algún hackathon encaja su perfil."
+http://hackathonlovers.tumblr.com/post/114216409813/entrevista-pillcalling-finalista-del-campusinwatch
+
+8. SaveMe
+Equipo ganador del #CampusInWatch
+"Todo el mundo debería probar a trabajar a contrareloj con un equipo de personas que no sueles conocer."
+http://hackathonlovers.tumblr.com/post/114311999918/entrevista-a-saveme-ganador-del-campusinwatch
+
+9. BreatheBetter
+Segundos clasificados del #DataFestMAD
+"Animaos a participar en hackathones de temas que os interesen, es toda una experiencia positiva."
+http://hackathonlovers.tumblr.com/post/114758458208/breathbetter-segundos-clasificados-datafestmad
+
+10. DensiTweet
+Ganadores del premio de geolocalización del #DataFestMAD
+"Es toda una experiencia coger una idea y darle forma con gente desconocida, ya que te van a sorprender."
+http://hackathonlovers.tumblr.com/post/115560901993/densitweet-ganadores-premio-geolocalizacion-datafestmad
+
+11. JusTrash
+Ganadores del #DataFestMAD
+"Te permite conocer profesionales con perfiles que pueden encajar en proyectos en marcha o futuros."
+http://hackathonlovers.tumblr.com/post/115884051928/entrevista-a-justrash-ganadores-del-datafestmad
+
+12. Badoogs
+Finalistas del #TWOC15
+"Es una experiencia increíble, una mezcla de diversión, aprendizaje y presión por conseguir un objetivo en un corto plazo."
+http://hackathonlovers.tumblr.com/post/126417830413/entrevista-a-badoog-finalistas-del-twoc15
+
+13. GeoRep
+Ganadores del #TWOC15
+"Es una manera muy buena de aprender, conocer gente y pasar un buen rato."
+"Hemos adquirido experiencia en desarrollo y conocido a muchas personas que nos pueden ayudar con nuestra startup."
+
+14. Alfonso Gómez-Jordana
+Mentor del #MajadaHackJunior
+"No fue mal consejo el que me apuntara a esas cosas llamadas hackathon :)"
+http://hackathonlovers.tumblr.com/post/127318207698/entrevista-a-alfonso-gomez-jordana-mentor-del-majadahack
+
+15. Amaia Castro
+Mentora del #MajadaHackJunior
+"Me ha sorprendido gratamente la capacidad de los participantes de hacer cosas que funcionan en tan poco tiempo :)"
+http://hackathonlovers.tumblr.com/post/127471081318/entrevista-a-amaia-castro-mentora-del-majadahackjunior
+
+16. Javier Miguel
+Mentor del #MajadaHackJunior
+"Es muy satisfactorio ver tanta gente joven interesada en el desarrollo de software disfrutando de construir cosas."
+http://hackathonlovers.tumblr.com/post/127566398173/entrevista-a-javier-miguel-mentor-del-majadahackjunior
+
+17. Javier Gómez
+Mentor del #MajadaHackJunior
+"Me ha gustado el ambiente que había y el espíritu de la gente."
+http://hackathonlovers.tumblr.com/post/127635726528/entrevista-a-javier-gomez-mentor-del-majadahackjunior
+
+18. Miguel Abellan
+Mentor del #MajadaHackJunior
+"Me siento feliz enseñando a programar y compartiendo experiencias y prácticas con la comunidad de programadores."
+http://hackathonlovers.tumblr.com/post/127662822018/entrevista-a-miguel-abellan-mentor-del-majadahackjunior
+
+19. Pablo Fernández
+Mentor del #MajadaHackJunior
+"Todo el mundo puede aportar algo, desde saber programación, a tener buenas ideas, o simplemente aportar buen ambiente al grupo."
+http://hackathonlovers.tumblr.com/post/127663389868/entrevista-a-pablo-fernandez-mentor-del-majadahackjunior
+
+20. Marina Lorenzo
+Organizadora del #MajadaHackJunior
+"Necesitamos la participación de mujeres programadoras en este tipo de actividades."
+http://hackathonlovers.tumblr.com/post/127666686113/entrevista-marina-lorenzo-organizadora-majadahackjunior
+
+
+# EQUIPO
+
+ADOLFO
+Emprendedor 60%
+Diseñador 70%
+Desarrollador 80%
+Formador 90%
+Hacker 100%
+
+JORGE
+Emprendedor 60%
+Diseñador 60%
+Desarrollador 90%
+Formador 80%
+Hacker 100%
+
+
+# CONTACTO
+
+¿Quieres promocionar o testear tu producto o plataforma en un hackathon? Contacta con nosotros para organizarlo. Estamos a tu disposición para cualquier duda que tengas en: info@hackathonlovers.com
