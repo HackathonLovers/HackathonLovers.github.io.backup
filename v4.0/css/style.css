@@ -513,11 +513,15 @@ ul.social-list li a.google:hover {
 	background-color: #F16261;
 }
 
+ul.social-list li a.youtube:hover {
+	background-color: #F16261;
+}
+
 ul.social-list li a.dribbble:hover {
 	background-color: #E46387;
 }
 
-ul.social-list li a.linkdin:hover {
+ul.social-list li a.linkedin:hover {
 	background-color: #90CADD;
 }
 
@@ -525,11 +529,19 @@ ul.social-list li a.tumblr:hover {
 	background-color: #4D7EA3;
 }
 
+ul.social-list li a.blog:hover {
+	background-color: #4D7EA3;
+}
+
 ul.social-list li a.flickr:hover {
 	background-color: #E474AF;
 }
 
-ul.social-list li a.instgram:hover {
+ul.social-list li a.instagram:hover {
+	background-color: #4D4F54;
+}
+
+ul.social-list li a.github:hover {
 	background-color: #4D4F54;
 }
 
@@ -2705,11 +2717,11 @@ ul.icons-list li i {
 	padding: 15px 6px 12px 6px;
 }
 
-.team-member .member-socail {
+.team-member .member-social {
 	//text-align: center;
 }
 
-.team-member .member-socail a i {
+.team-member .member-social a i {
 	color: #fff;
 	width: 28px;
 	height: 28px;
@@ -2727,32 +2739,48 @@ ul.icons-list li i {
     -o-transition: all 0.2s ease-in-out;
 }
 
-.team-member .member-socail a.facebook:hover i {
+.team-member .member-social a.facebook:hover i {
 	background-color: #507CBE;
 }
 
-.team-member .member-socail a.twitter:hover i {
+.team-member .member-social a.twitter:hover i {
 	background-color: #63CDF1;
 }
 
-.team-member .member-socail a.gplus:hover i {
+.team-member .member-social a.google:hover i {
 	background-color: #F16261;
 }
 
-.team-member .member-socail a.dribbble:hover i {
+.team-member .member-social a.youtube:hover i {
+	background-color: #F16261;
+}
+
+.team-member .member-social a.dribbble:hover i {
 	background-color: #E46387;
 }
 
-.team-member .member-socail a.linkedin:hover i {
+.team-member .member-social a.linkedin:hover i {
 	background-color: #90CADD;
 }
 
-.team-member .member-socail a.flickr:hover i {
+.team-member .member-social a.flickr:hover i {
 	background-color: #E474AF;
 }
 
-.team-member .member-socail a.instagramm:hover i {
+.team-member .member-social a.instagram:hover i {
 	background-color: #4D4F54;
+}
+
+.team-member .member-social a.github:hover i {
+	background-color: #4D4F54;
+}
+
+.team-member .member-social a.tumblr:hover i {
+	background-color: #4D7EA3;
+}
+
+.team-member .member-social a.blog:hover i {
+	background-color: #4D7EA3;
 }
 
 .team-member.modern .member-info {
@@ -2809,16 +2837,16 @@ ul.icons-list li i {
 	display: none;
 }
 
-.team-member.modern .member-socail {
+.team-member.modern .member-social {
 	margin-top: 15px;
 }
 
-.team-member.modern .member-socail a i {
+.team-member.modern .member-social a i {
 	background-color: transparent;
 	color: #666;
 }
 
-.team-member.modern .member-socail a:hover i {
+.team-member.modern .member-social a:hover i {
 	color: #fff;
 }
 
@@ -3769,11 +3797,11 @@ ul.post-meta li, ul.post-meta li a {
 	background-color: #36BFED;
 }
 
-.post-share a.gplus {
+.post-share a.google {
 	background-color: #F16261;
 }
 
-.post-share a.gplus:hover {
+.post-share a.google:hover {
 	background-color: #EF4545;
 }
 
@@ -4168,11 +4196,15 @@ footer a:hover {
 	background-color: #F16261;
 }
 
+.social-widget ul.social-icons li a.youtube:hover i {
+	background-color: #F16261;
+}
+
 .social-widget ul.social-icons li a.dribbble:hover i {
 	background-color: #E46387;
 }
 
-.social-widget ul.social-icons li a.linkdin:hover i {
+.social-widget ul.social-icons li a.linkedin:hover i {
 	background-color: #90CADD;
 }
 
@@ -4180,11 +4212,19 @@ footer a:hover {
 	background-color: #4D7EA3;
 }
 
+.social-widget ul.social-icons li a.blog:hover i {
+	background-color: #4D7EA3;
+}
+
 .social-widget ul.social-icons li a.flickr:hover i {
 	background-color: #E474AF;
 }
 
-.social-widget ul.social-icons li a.instgram:hover i {
+.social-widget ul.social-icons li a.instagram:hover i {
+	background-color: #4D4F54;
+}
+
+.social-widget ul.social-icons li a.github:hover i {
 	background-color: #4D4F54;
 }
 
@@ -4277,7 +4317,7 @@ footer a:hover {
     color: #666;
     font-size: 12px;
     padding: 6px 12px;
-	border: none;
+	  border: none;
     background: #fff;
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -4288,14 +4328,13 @@ footer a:hover {
 
 .copyright-section {
     padding: 15px 0;
-	font-size: 11px;
-	letter-spacing: 0.5px;
+	  font-size: 11px;
+	  letter-spacing: 0.5px;
     border-top: 1px solid rgba(255,255,255,.06);
 }
 
 .copyright-section p {
 	font-size: 11px;
-	text-transform: uppercase;
 }
 
 ul.footer-nav {
@@ -4314,7 +4353,6 @@ ul.footer-nav li:first-child {
 
 ul.footer-nav li a {
     display: inline-block;
-    text-transform: uppercase;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;

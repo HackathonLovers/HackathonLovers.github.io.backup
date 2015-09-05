@@ -48,4 +48,5 @@ concatJS js/jquery.nicescroll.min.js
 concatJS js/jquery.parallax.js
 concatJS js/mediaelement-and-player.js
 concatJS js/script.js
+concatJS js/jquery.easing.1.3.js
 

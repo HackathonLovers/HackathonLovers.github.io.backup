@@ -30,7 +30,7 @@ Somos desarrolladores, diseñadores, emprendedores... a los que nos gustan los h
 Hackers (fa-laptop)
 Experimentamos con nuevos dispositivos, lenguajes, frameworks, tecnologías, plataformas, APIs...
 
-Objetivo (fa-dot-circle-o)
+Objetivo (fa-rocket)
 Nuestra intención es crear proyectos, divertirse, aprender, crear lazos con otros profesionales...
 
 
@@ -47,7 +47,7 @@ Nuestra intención es crear proyectos, divertirse, aprender, crear lazos con otr
 http://hackathonlovers.tumblr.com/post/73306343548/retrospectiva-del-primer-hackathon-de
 
 #MajadaHack
-http://hackathonlovers.tumblr.com/post/91563282248/retrospectiva-del-primer-majadahack  
+http://hackathonlovers.tumblr.com/post/91563282248/retrospectiva-del-primer-majadahack
 
 #SummerHackVLC
 http://www.meetup.com/es/Hackathon-Lovers/events/196595462/
@@ -143,8 +143,8 @@ http://hackathonlovers.tumblr.com/post/126417830413/entrevista-a-badoog-finalist
 
 13. GeoRep
 Ganadores del #TWOC15
-"Es una manera muy buena de aprender, conocer gente y pasar un buen rato."
-"Hemos adquirido experiencia en desarrollo y conocido a muchas personas que nos pueden ayudar con nuestra startup."
+"Hemos adquirido experiencia en desarrollo y conocido a muchas personas que nos pueden ayudar con nuestra StartUp."
+http://hackathonlovers.tumblr.com/post/127082539628/entrevista-a-geoorep-ganadores-del-twoc15
 
 14. Alfonso Gómez-Jordana
 Mentor del #MajadaHackJunior
@@ -185,18 +185,48 @@ http://hackathonlovers.tumblr.com/post/127666686113/entrevista-marina-lorenzo-or
 # EQUIPO
 
 ADOLFO
+HackMaster
 Emprendedor 60%
 Diseñador 70%
 Desarrollador 80%
 Formador 90%
 Hacker 100%
 
+http://twitter.com/asanzdiego
+http://github.com/asanzdiego
+http://linkedin.com/in/asanzdiego
+http://slideshare.net/asanzdiego
+http://asanzdiego.blogspot.com.es/
+
+
 JORGE
-Emprendedor 60%
-Diseñador 60%
+CommunityMan
+Emprendedor 75%
+Diseñador 55%
+Desarrollador 95%
+Formador 75%
+Hacker 100%
+
+http://twitter.com/jorgeas80
+http://github.com/jorgeas80
+http://linkedin.com/in/jorgearevalo80
+http://slideshare.net/jorgearevalo
+http://libregis.org/
+
+
+CARLOS
+DevDesigner
+Emprendedor 80%
+Diseñador 80%
 Desarrollador 90%
 Formador 80%
-Hacker 100%
+Hacker 70%
+
+http://twitter.com/carlosazaustre
+http://github.com/carlosazaustre
+http://linkedin.com/in/carlosazaustre
+http://slideshare.com/carlosazaustre
+http://carlosazaustre.es/blog/
 
 
 # CONTACTO
