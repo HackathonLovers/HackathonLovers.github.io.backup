@@ -935,14 +935,14 @@ ul.social-list li:last-child a i {
 #main-slide .slider-content h3{
 	font-size: 36px;
 	font-weight: 300;
-	margin-top: 100px;
+	margin-top: 4em;
 	text-transform: uppercase;
     text-align: center;
     color: #555;
 }
 
 #main-slide .slider-content p{
-	margin-top: 150px;
+	margin-top: 10em;
 }
 
 .slider.btn{
