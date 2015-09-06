@@ -1,59 +1,366 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Basic -->
+    <title>Hackathon Lovers: comunidad de desarrolladores, diseñadores, emprendedores... amantes de los hackathones.</title>
+
+    <!-- Define Charset -->
     <meta charset="utf-8">
-    <title>Hackathon Lovers - Por y para los amantes de los hackathones</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hackathon Lovers es un grupo creado por y para amantes de hackathones. La idea del grupo es juntarse de vez en cuando para realizar un hackathon entre todos los participantes. La intención es no discriminar ningún lenguaje de programación, y que los hackathones sirvan para aprender nuevas herramientas y nuevos procedimientos, a la vez que se afiancen lazos con otros profesionales.">
-    <meta name="author" content="Hackalover Team">
 
-    <!-- styles -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/default.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet"> 
+    <!-- Responsive Metatag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Description and Author -->
+    <meta name="description" content="Hackathon Lovers es una comunidad de desarrolladores, diseñadores, emprendedores... amantes de los hackathones. Experimentan con nuevos dispositivos, lenguajes, frameworks, tecnologías, plataformas, APIs... con la intención de crear proyectos, divertirse, aprender, crear lazos con otros profesionales...">
+    <meta name="author" content="Hackalovers Team">
+
+    <!-- CSS Minimized  -->
+    <link rel="stylesheet" href="http://hackathonlovers.com/css/minimize.css" type="text/css" media="screen">
+
+    <!-- Bootstrap CSS  -->
+    <!-- link rel="stylesheet" href="http://hackathonlovers.com/asset/css/bootstrap.min.css" type="text/css" media="screen"-->
+
+    <!-- Font Awesome CSS -->
+    <!-- link rel="stylesheet" href="http://hackathonlovers.com/css/font-awesome.min.css" type="text/css" media="screen"-->
+
+    <!-- Margo CSS Styles  -->
+    <!-- link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/style.css" media="screen"-->
+
+    <!-- Responsive CSS Styles  -->
+    <!-- link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/responsive.css" media="screen"-->
+
+    <!-- Css3 Transitions Styles  -->
+    <!-- link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/animate.css" media="screen"-->
+
+    <!-- Color CSS Styles  -->
+    <!--link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/red.css" title="red" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/jade.css" title="jade" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/green.css" title="green" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/blue.css" title="blue" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/beige.css" title="beige" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/cyan.css" title="cyan" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/orange.css" title="orange" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/peach.css" title="peach" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/pink.css" title="pink" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/purple.css" title="purple" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/sky-blue.css" title="sky-blue" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://hackathonlovers.com/css/colors/yellow.css" title="yellow" media="screen" /-->
+
+    <!-- JS Minimized  -->
+    <script type="text/javascript" src="http://hackathonlovers.com/js/minimize.js"></script>
+
+    <!-- Margo JS  -->
+    <!--script type="text/javascript" src="http://hackathonlovers.com/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/modernizrr.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/asset/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/owl.carousel.min.js"></script-->
+    <script type="text/javascript" src="http://hackathonlovers.com/js/nivo-lightbox.min.js"></script>
+    <!--script type="text/javascript" src="http://hackathonlovers.com/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/count-to.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/mediaelement-and-player.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/script.js"></script>
+    <script type="text/javascript" src="http://hackathonlovers.com/js/jquery.easing.1.3.js"></script-->
     
-    <!--[if lt IE 7]>
-     <link href="css/font-awesome-ie7.min.css" rel="stylesheet">
-    <![endif]-->
+    <!--[if IE 8]><script src="http://hackathonlovers.com/http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://hackathonlovers.com/http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]-->
-
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="img/hackathon-lovers-icon.png">
+    <link rel="shortcut icon" href="http://hackathonlovers.com/images/logo/hackathon-lovers-icon.png">
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
 
-      
-    <nav id="topnav"  class="navbar navbar-fixed-top navbar-default" role="navigation">
-        <div class="container">
-        </div>	
-    </nav>
-
-    <section>
-        <div class="container jumbotron">
-            <div class="row">
-                <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <br class="" />
-                    <h1><a href="http://hackathonlovers.com">
-                        <img src="img/hackathon-lovers-logo.png" width="500" alt="Hackathon Lovers"/></a></h1>
-                    <br class="" />
-                    <h1>Página no encontrada :(</h1>
-                    <p>Lo sentimos, pero la página que intentas ver no existe.</p>
-                    <p>Puede ser debido a que hayas escrito mal la dirección o que sea un enlace antiguo.</p>
+    <!-- Full Body Container -->
+    <div id="container">
+        
+        
+        <!-- Start Header Section --> 
+        <div class="hidden-header"></div>
+        <header class="clearfix">
+            
+            <!-- Start Top Bar -->
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <!-- Start Contact Info -->
+                            <ul class="contact-details">
+                                <li><a href="http://www.meetup.com/Hackathon-Lovers/">
+                                      <i class="fa fa-sign-in"></i> Únete a nuestro meetup</a>
+                                </li>
+                                <li><a href="mailto:info@hackathonlovers.com">
+                                      <i class="fa fa-envelope-o"></i> info@hackathonlovers.com</a>
+                                </li>
+                            </ul>
+                            <!-- End Contact Info -->
+                        </div><!-- .col-md-6 -->
+                        <div class="col-md-5">
+                          <!-- Start Social Links -->
+                          <ul class="social-list">
+                            <li>
+                              <a class="facebook itl-tooltip" data-placement="bottom" title="Facebook"
+                                 href="http://www.facebook.com/HackathonLovers"><i class="fa fa-facebook"></i>
+                                  <span class="sr-only sr-only-focusable">Facebook</span></a>
+                            </li>
+                            <li>
+                              <a class="twitter itl-tooltip" data-placement="bottom" title="Twitter" 
+                                 href="http://twitter.com/HackathonLovers"><i class="fa fa-twitter"></i>
+                                  <span class="sr-only sr-only-focusable">Twitter</span></a>
+                            </li>
+                            <li>
+                              <a class="linkedin itl-tooltip" data-placement="bottom" title="LinkedIn" 
+                                 href="http://www.linkedin.com/groups/Hackathon-Lovers-6510465"><i class="fa fa-linkedin"></i>
+                                  <span class="sr-only sr-only-focusable">LinkedIn</span></a>
+                            </li>
+                            <li>
+                              <a class="google itl-tooltip" data-placement="bottom" title="Google+" 
+                                 href="http://plus.google.com/110220986282574906500/"><i class="fa fa-google-plus"></i>
+                                  <span class="sr-only sr-only-focusable">Google+</span></a>
+                            </li>
+                            <li>
+                              <a class="github itl-tooltip" data-placement="bottom" title="Github" 
+                                 href="https://github.com/hackathonlovers"><i class="fa fa-github"></i>
+                                  <span class="sr-only sr-only-focusable">Github</span></a>
+                            </li>
+                            <li>
+                              <a class="blog itl-tooltip" data-placement="bottom" title="Blog" 
+                                 href="http://hackathonlovers.tumblr.com/"><i class="fa fa-rss"></i>
+                                  <span class="sr-only sr-only-focusable">Blog</span></a>
+                            </li>
+                            <li>
+                              <a class="flickr itl-tooltip" data-placement="bottom" title="Fotos" 
+                                 href="http://www.flickr.com/photos/114271676@N05/sets/"><i class="fa fa-flickr"></i>
+                                  <span class="sr-only sr-only-focusable">Fotos</span></a>
+                            </li>
+                            <li>
+                              <a class="youtube itl-tooltip" data-placement="bottom" title="Vídeos" 
+                                 href="http://www.youtube.com/channel/UCRwSe7jK-y62BMvIiNBV1qw"><i class="fa fa-youtube"></i>
+                                  <span class="sr-only sr-only-focusable">Vídeos</span></a>
+                            </li>
+                          </ul>
+                          <!-- End Social Links -->
+                        </div><!-- .col-md-6 -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .top-bar -->
+            <!-- End Top Bar -->
+            
+            
+            <!-- Start  Logo & Naviagtion  -->
+            <div class="navbar navbar-default navbar-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- Stat Toggle Nav Link For Mobiles -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                          <i class="fa fa-bars"></i><span class="sr-only sr-only-focusable">Menu</span>
+                        </button>
+                        <!-- End Toggle Nav Link For Mobiles -->
+                        <a class="navbar-brand" href="http://hackathonlovers.com/">
+                            <img alt="HackathonLovers" src="http://hackathonlovers.com/images/logo/logo-hackathon-lovers-alargado-bis-232x24.png">
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <!-- Start Navigation List -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="http://hackathonlovers.com/#presentacion">Presentación</a></li>
+                            <li><a href="http://hackathonlovers.com/#hackathones">Hackathones</a></li>
+                            <li><a href="http://hackathonlovers.com/#numeros">Números</a></li>
+                            <li><a href="http://hackathonlovers.com/#hackers">Hackers</a></li>
+                            <li><a href="http://hackathonlovers.com/#contacto">Contacto</a></li>
+                            <li><a href="http://hackathonlovers.com/#equipo">Equipo</a></li>
+                        </ul>
+                        <!-- End Navigation List -->
+                    </div>
                 </div>
             </div>
-        </div><!-- / CONTAINER-->
-    </section>
+            <!-- End Header Logo & Naviagtion -->
+            
+        </header> 
+        <!-- End Header Section -->
+        
+        <!-- Start NotFound Section -->
+        <div class="section not-found">
+          <div class="container">
 
-    <footer class="fixed">
-        <p>© 2014 - Hackalovers Team</p>
-    </footer>
+                <div class="text-center uppercase">
+                  
+                    <h2 class="fittext wite-text" data-animation="fadeInDown" data-animation-delay="02">
+                      <strong>Lo sentimos, pero la página que intentas ver no existe.</strong></h2>
+                  
+                    <h3 class="fittext wite-text" data-animation="fadeInDown" data-animation-delay="03">
+                      Puede ser debido a que hayas escrito mal la dirección o que sea un enlace antiguo.</h3>
 
+                    <p data-animation="fadeInDown" data-animation-delay="04">
+                      <a class="slider btn btn-system btn-large"
+                         href="http://hackathonlovers.com">
+                        <i class="fa fa-sign-in"></i> ir a hackathonlovers.com</a></p>
+
+                </div>
+
+            </div><!-- .container -->
+        </div>
+        <!-- End NotFound Section -->
+            
+      
+        <!-- Start Footer -->
+        <footer id="footer">
+          <div class="container">
+            <div class="row footer-widgets">
+              
+              <!-- Start Meetup -->
+              <div class="col-md-4 text-center">
+                <div class="footer-widget mail-subscribe-widget">
+                  <h4>Mantente al día</h4>
+                  <p><a href="http://www.meetup.com/Hackathon-Lovers/" class="btn btn-system">
+                    <i class="fa fa-sign-in"></i> Únete a nuestro Meetup</a></p>
+                </div>
+              </div>
+              <!-- End Meetup -->
+              
+              <!-- Start Social Links Widget -->
+              <div class="col-md-4 text-center">
+                <div class="footer-widget social-widget">
+                  <h4>Síguenos</h4>
+                  <ul class="social-icons">
+                    <li>
+                      <a class="facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook"
+                         href="http://www.facebook.com/HackathonLovers"><i class="fa fa-facebook"></i>
+                          <span class="sr-only sr-only-focusable">Facebook</span></a>
+                    </li>
+                    <li>
+                      <a class="twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter" 
+                         href="http://twitter.com/HackathonLovers"><i class="fa fa-twitter"></i>
+                          <span class="sr-only sr-only-focusable">Twitter</span></a>
+                    </li>
+                    <li>
+                      <a class="linkedin" data-toggle="tooltip" data-placement="bottom" title="LinkedIn" 
+                         href="http://www.linkedin.com/groups/Hackathon-Lovers-6510465"><i class="fa fa-linkedin"></i>
+                          <span class="sr-only sr-only-focusable">LinkedIn</span></a>
+                    </li>
+                    <li>
+                      <a class="google" data-toggle="tooltip" data-placement="bottom" title="Google+" 
+                         href="http://plus.google.com/110220986282574906500/"><i class="fa fa-google-plus"></i>
+                          <span class="sr-only sr-only-focusable">Google+</span></a>
+                    </li>
+                    <li class="clearfix visible-xs-block"></li>
+                    <li>
+                      <a class="github" data-toggle="tooltip" data-placement="bottom" title="Github" 
+                         href="https://github.com/hackathonlovers"><i class="fa fa-github"></i>
+                          <span class="sr-only sr-only-focusable">Github</span></a>
+                    </li>
+                    <li>
+                      <a class="blog" data-toggle="tooltip" data-placement="bottom" title="Blog" 
+                         href="http://hackathonlovers.tumblr.com/"><i class="fa fa-rss"></i>
+                          <span class="sr-only sr-only-focusable">Blog</span></a>
+                    </li>
+                    <li>
+                      <a class="flickr" data-toggle="tooltip" data-placement="bottom" title="Fotos" 
+                         href="http://www.flickr.com/photos/114271676@N05/sets/"><i class="fa fa-flickr"></i>
+                          <span class="sr-only sr-only-focusable">Fotos</span></a>
+                    </li>
+                    <li>
+                      <a class="youtube" data-toggle="tooltip" data-placement="bottom" title="Vídeos" 
+                         href="http://www.youtube.com/channel/UCRwSe7jK-y62BMvIiNBV1qw"><i class="fa fa-youtube"></i>
+                          <span class="sr-only sr-only-focusable">Vídeos</span></a>
+                    </li>
+                  </ul>                  
+                </div>
+              </div>
+              <!-- End Social Links Widget -->
+
+              <!-- Start Mail -->
+              <div class="col-md-4 text-center">
+                <div class="footer-widget mail-subscribe-widget">
+                  <h4>Escríbenos</h4>
+                  <p><a href="mailto: info@hackathonlovers.com" class="btn btn-system">
+                    <i class="fa fa-envelope"></i> info@hackathonlovers.com</a></p>
+                </div>
+              </div>
+              <!-- End Mail -->
+
+
+            </div><!-- .row -->
+
+            <!-- Start Copyright -->
+            <div class="copyright-section">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>Hecho con <i class="fa fa-heart accent-color"></i>
+                    <span class="sr-only sr-only-focusable">amor</span> por el equipo de
+                      <a href="http://hackathonlovers.com">HackathonLovers</a></p>
+                </div>
+                <div class="col-md-6">
+                  <ul class="footer-nav">
+                    <li>Se ha usado la plantilla 
+                      <a href="http://graygrids.com/item/margo-free-multi-purpose-bootstrap-template/">
+                        MARGO de GrayGrids</a></li>
+                  </ul>
+                </div>						
+              </div>
+            </div>
+            <!-- End Copyright -->
+
+          </div>
+        </footer>
+        <!-- End Footer -->
+        
+        
+    </div>
+    <!-- End Full Body Container -->
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i><span class="sr-only sr-only-focusable">Arriba</span></a>
+
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+
+    <script>
+    $(document).ready(function(){
+    
+        var scrollValue, speed = 2000;
+        
+        // hide menu after click on mobile
+        $('.navbar .nav > li > a').click(function(){
+            
+            $('.navbar-collapse.navbar-ex1-collapse.in').removeClass('in').addClass('collapse').css('height', '0');
+        });
+        
+        // go to section
+        $('.navbar .nav > li > a').on('click', goSection);
+
+        function goSection(e){
+            var selectedSection = $(this).attr('href');
+            var posY = $(selectedSection).offset().top;
+            $('html, body').animate({ scrollTop: posY}, {duration:speed, easing: 'easeInOutQuint'});
+            e.preventDefault();
+        }
+        
+        $(document).on('scroll', parallax);
+
+        function parallax() {
+            scrollValue = $('html').scrollTop() || $('body').scrollTop();
+            $('section').each(function (){
+                $(this).css({ backgroundPosition: 'center '+((scrollValue - $(this).offset().top) * .9)+'px' });
+            });
+        }
+
+    });
+    </script>
 </body>
+
 </html>
