@@ -46,7 +46,7 @@ body {
     line-height: 21px;
 	font-weight: 300;
 	color: #666;
-	background: url(../images/patterns/1.png) fixed repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/1.png) fixed repeat;
 }
 strong, b {
 	font-weight: 600;
@@ -1034,7 +1034,7 @@ ul.social-list li:last-child a i {
 
 .page-banner {
     padding: 30px 0;
-    background: url(../images/slide-02-bg.jpg) center;
+    background: url(http://hackathonlovers.com/v4.0/images/slide-02-bg.jpg) center;
 	border-bottom: 1px solid #eee;
 }
 
@@ -4242,7 +4242,7 @@ footer a:hover {
 }
 
 .contact-widget {
-	background: url(../images/map.png) center bottom no-repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/map.png) center bottom no-repeat;
 }
 
 .contact-widget span {
@@ -4618,7 +4618,7 @@ ul.footer-nav li a:hover {
 	background: #666;
 	background: rgba(0,0,0,0.8); 
 }
-.nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { background: url(../images/lightbox/loading.gif) no-repeat 50% 50%; }
+.nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { background: url(http://hackathonlovers.com/v4.0/images/lightbox/loading.gif) no-repeat 50% 50%; }
 
 .nivo-lightbox-theme-default .nivo-lightbox-nav {
 	top: 10%;
@@ -4638,14 +4638,14 @@ ul.footer-nav li a:hover {
 	background-color: rgba(0,0,0,0.5);
 }
 .nivo-lightbox-theme-default .nivo-lightbox-prev { 
-	background-image: url(../images/lightbox/prev.png); 
+	background-image: url(http://hackathonlovers.com/v4.0/images/lightbox/prev.png); 
 	border-radius: 0 3px 3px 0;
 	-webkit-border-radius: 0 3px 3px 0;
     -moz-border-radius: 0 3px 3px 0;
     -o-border-radius: 0 3px 3px 0;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-next { 
-	background-image: url(../images/lightbox/next.png); 
+	background-image: url(http://hackathonlovers.com/v4.0/images/lightbox/next.png); 
 	border-radius: 3px 0 0 3px;
 	-webkit-border-radius: 3px 0 0 3px;
     -moz-border-radius: 3px 0 0 3px;
@@ -4655,7 +4655,7 @@ ul.footer-nav li a:hover {
 
 .nivo-lightbox-theme-default .nivo-lightbox-close {
 	display: block;
-	background: url(../images/lightbox/close.png) no-repeat 5px 5px;
+	background: url(http://hackathonlovers.com/v4.0/images/lightbox/close.png) no-repeat 5px 5px;
 	width: 16px;
 	height: 16px;
 	text-indent: -9999px;
@@ -4702,19 +4702,19 @@ ul.footer-nav li a:hover {
        (min-resolution: 1.3dppx) {
 
 	.nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { 
-		background-image: url(../images/lightbox/loading@2x.gif); 
+		background-image: url(http://hackathonlovers.com/v4.0/images/lightbox/loading@2x.gif); 
 		background-size: 32px 32px;
 	}
 	.nivo-lightbox-theme-default .nivo-lightbox-prev { 
-		background-image: url(../images/lightbox/prev@2x.png); 
+		background-image: url(http://hackathonlovers.com/v4.0/images/lightbox/prev@2x.png); 
 		background-size: 48px 48px;
 	}
 	.nivo-lightbox-theme-default .nivo-lightbox-next { 
-		background-image: url(../images/lightbox/next@2x.png); 
+		background-image: url(http://hackathonlovers.com/v4.0/images/lightbox/next@2x.png); 
 		background-size: 48px 48px;
 	}
 	.nivo-lightbox-theme-default .nivo-lightbox-close { 
-		background-image: url(../images/lightbox/close@2x.png); 
+		background-image: url(http://hackathonlovers.com/v4.0/images/lightbox/close@2x.png); 
 		background-size: 16px 16px;
 	}
 	
@@ -4784,7 +4784,7 @@ ul.footer-nav li a:hover {
 
 /* mouse grab icon */
 .grabbing { 
-    cursor:url(../images/icons/grabbing.png) 8 8, move;
+    cursor:url(http://hackathonlovers.com/v4.0/images/icons/grabbing.png) 8 8, move;
 }
 
 /* fix */
@@ -5193,7 +5193,7 @@ ul.footer-nav li a:hover {
 /* preloading images */
 .owl-item.loading{
 	min-height: 150px;
-	background: url(../images/icons/ajaxloader.gif) no-repeat center center
+	background: url(http://hackathonlovers.com/v4.0/images/icons/ajaxloader.gif) no-repeat center center
 }
 
 
@@ -5320,46 +5320,46 @@ ul.footer-nav li a:hover {
 	height: 20px;
 }
 .switcher-box .bg-list li a.bg1 {
-	background: url(../images/patterns/1.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/1.png) repeat;
 }
 .switcher-box .bg-list li a.bg2 {
-	background: url(../images/patterns/2.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/2.png) repeat;
 }
 .switcher-box .bg-list li a.bg3 {
-	background: url(../images/patterns/3.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/3.png) repeat;
 }
 .switcher-box .bg-list li a.bg4 {
-	background: url(../images/patterns/4.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/4.png) repeat;
 }
 .switcher-box .bg-list li a.bg5 {
-	background: url(../images/patterns/5.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/5.png) repeat;
 }
 .switcher-box .bg-list li a.bg6 {
-	background: url(../images/patterns/6.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/6.png) repeat;
 }
 .switcher-box .bg-list li a.bg7 {
-	background: url(../images/patterns/7.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/7.png) repeat;
 }
 .switcher-box .bg-list li a.bg8 {
-	background: url(../images/patterns/8.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/8.png) repeat;
 }
 .switcher-box .bg-list li a.bg9 {
-	background: url(../images/patterns/9.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/9.png) repeat;
 }
 .switcher-box .bg-list li a.bg10 {
-	background: url(../images/patterns/10.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/10.png) repeat;
 }
 .switcher-box .bg-list li a.bg11 {
-	background: url(../images/patterns/11.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/11.png) repeat;
 }
 .switcher-box .bg-list li a.bg12 {
-	background: url(../images/patterns/12.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/12.png) repeat;
 }
 .switcher-box .bg-list li a.bg13 {
-	background: url(../images/patterns/13.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/13.png) repeat;
 }
 .switcher-box .bg-list li a.bg14 {
-	background: url(../images/patterns/14.png) repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/patterns/14.png) repeat;
 }
 
 .switcher-box .open-switcher {
@@ -5377,7 +5377,7 @@ ul.footer-nav li a:hover {
 }
 
 .switcher-box .open-switcher:hover {
-	background: url(../images/icons/switcher.png) #444 center no-repeat;
+	background: url(http://hackathonlovers.com/v4.0/images/icons/switcher.png) #444 center no-repeat;
 	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0 0 4px rgba(0,0,0,0.2);
 	box-shadow: 0 0 4px rgba(0,0,0,0.2);
@@ -5683,19 +5683,19 @@ ul.footer-nav li a:hover {
 }
 
 .purchase {
-    background: url(../images/parallax/bg-01.jpg) no-repeat;
+    background: url(http://hackathonlovers.com/v4.0/images/parallax/bg-01.jpg) no-repeat;
     background-attachment: fixed;
     padding: 100px 0;
 }
 
 .contacto {
-    background: url(../images/parallax/bg-03.jpg) no-repeat;
+    background: url(http://hackathonlovers.com/v4.0/images/parallax/bg-03.jpg) no-repeat;
     background-attachment: fixed;
     padding: 100px 0;
 }
 
 .not-found {
-    background: url(../images/parallax/bg-04.jpg) no-repeat;
+    background: url(http://hackathonlovers.com/v4.0/images/parallax/bg-04.jpg) no-repeat;
     background-attachment: fixed;
     padding: 100px 0;
 }
