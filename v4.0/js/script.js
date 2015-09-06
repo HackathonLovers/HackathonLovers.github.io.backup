@@ -329,21 +329,40 @@ $(document).ready(function ($) {
 	})
 	
 	
-	
+	var findBootstrapEnvironment = function() {
+      var envs = ['xs', 'sm', 'md', 'lg'];
+
+      var myDiv = $('<div>');
+      myDiv.appendTo($('body'));
+
+      for (var i = envs.length - 1; i >= 0; i--) {
+          var env = envs[i];
+
+          myDiv.addClass('hidden-'+env);
+          if (myDiv.is(':hidden')) {
+              myDiv.remove();
+              return env;
+          }
+      };
+  };
 	
 	/*----------------------------------------------------*/
 	/*	Css3 Transition
 	/*----------------------------------------------------*/
 	
 	$('*').each(function(){
-		if($(this).attr('data-animation')) {
-			var $animationName = $(this).attr('data-animation'),
-				$animationDelay = "delay-"+$(this).attr('data-animation-delay');
-			$(this).appear(function() {
-				$(this).addClass('animated').addClass($animationName);
-				$(this).addClass('animated').addClass($animationDelay);
-			});
-		}
+    var device = findBootstrapEnvironment();
+    console.log(device);
+    if (device == 'lg') {
+      if($(this).attr('data-animation')) {
+        var $animationName = $(this).attr('data-animation'),
+          $animationDelay = "delay-"+$(this).attr('data-animation-delay');
+        $(this).appear(function() {
+          $(this).addClass('animated').addClass($animationName);
+          $(this).addClass('animated').addClass($animationDelay);
+        });
+      }  
+    }
 	});
 	
 	
