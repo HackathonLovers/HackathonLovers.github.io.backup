@@ -6314,7 +6314,7 @@ $(document).ready(function ($) {
 	
 	$('*').each(function(){
     var device = findBootstrapEnvironment();
-    console.log(device);
+    //console.log(device);
     if (device == 'lg') {
       if($(this).attr('data-animation')) {
         var $animationName = $(this).attr('data-animation'),
