@@ -44,7 +44,7 @@ concatJS js/count-to.js
 concatJS js/jquery.textillate.js
 concatJS js/jquery.lettering.js
 concatJS js/jquery.easypiechart.min.js
-concatJS js/jquery.nicescroll.min.js
+#concatJS js/jquery.nicescroll.min.js
 concatJS js/jquery.parallax.js
 concatJS js/mediaelement-and-player.js
 concatJS js/script.js
