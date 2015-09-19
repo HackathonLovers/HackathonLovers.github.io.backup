@@ -5910,7 +5910,7 @@ $(document).ready(function ($) {
 	/*	Nice-Scroll
 	/*----------------------------------------------------*/
 	
-	$("html").niceScroll({
+	/*$("html").niceScroll({
 		scrollspeed: 100,
 		mousescrollstep: 38,
 		cursorwidth: 5,
@@ -5920,7 +5920,7 @@ $(document).ready(function ($) {
 		zindex: 999999999,
 		horizrailenabled: false,
 		cursorborderradius: 0,
-	});
+	});*/
 		
 	
 	
