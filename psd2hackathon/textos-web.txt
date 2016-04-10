@@ -1,0 +1,36 @@
+Menus:
+- #psd2Hackahon
+- Evento
+- Dinámica
+- Premios
+- Bases
+- Inscripción
+- Organizadores
+
+Menus:
+- #psd2Hackahon
+  - cabecera principal bonita con:
+    - nombre
+    - descripción
+    - botón inscribete
+- Evento
+  - descripción del evento con:
+    - fecha, lugar y hora
+    - mapa y como llegar
+    - agenda
+    - botón inscribete
+- Dinámica
+  - descripción de la dinámica:
+    - 50 personas, 10 equipos, 3 ganadores
+    - pensado para desarrolladores y expertos en banca
+    - botón inscribete
+- Premios
+    - foto con los premios
+    - botón inscribete
+- Bases
+    - resumen con los puntos más importantes de las bases
+    - enlace a las bases en PDF
+- Inscripción
+    - botón inscribete
+- Organizadores
+    - logos de los organizadores (Atmira, HackathonLovers, Google Campus)
