@@ -43,7 +43,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
-    line-height: 21px;
+  line-height: 21px;
 	font-weight: 300;
 	color: #666;
 	background: url(../images/patterns/1.png) fixed repeat;
@@ -142,8 +142,8 @@ p strong {
 	font-size: 38px;
 	font-weight: 300;
 	line-height: 1.6em;
-    margin-bottom: 35px;
-	color: rgba(0,0,0, 0.8);
+  margin-bottom: 35px;
+	color: #333;
 }
 
 .fittext strong {
@@ -868,7 +868,7 @@ ul.social-list li:last-child a i {
 .carousel-indicators li{
 	width: 14px !important;
 	height: 14px !important;
-	border: 2px solid #fff !important;
+	border: 2px solid #333 !important;
 	margin: 1px !important;
 }
 
@@ -927,7 +927,7 @@ ul.social-list li:last-child a i {
 	font-size: 7em;
 	font-weight: 600;
 	text-transform: uppercase;
-  color: #555;
+  color: #333;
   margin-top: -100px;
 }
 
@@ -937,7 +937,7 @@ ul.social-list li:last-child a i {
 	margin-top: 50px;
 	text-transform: uppercase;
   text-align: center;
-  color: #555;
+  color: #333;
 }
 
 #main-slide .slider-content h4{
@@ -946,7 +946,7 @@ ul.social-list li:last-child a i {
 	margin-top: 50px;
 	text-transform: none;
   text-align: center;
-  color: #555;
+  color: #333;
 }
 
 #main-slide .slider-content p{
@@ -4128,7 +4128,7 @@ ul.post-meta li, ul.post-meta li a {
 footer {
 	background-color: #222;
     padding-top: 60px;
-	border-top: 4px solid #555;
+	border-top: 4px solid #333;
 	color: #ccc;
 }
 
