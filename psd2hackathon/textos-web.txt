@@ -27,10 +27,35 @@ Menus:
 - Premios
     - foto con los premios
     - botón inscribete
+- Inscripción
+    - botón inscribete
 - Bases
     - resumen con los puntos más importantes de las bases
     - enlace a las bases en PDF
-- Inscripción
-    - botón inscribete
 - Organizadores
     - logos de los organizadores (Atmira, HackathonLovers, Google Campus)
+
+
+Bases
+
+El evento es gratuito, aunque el registro es obligatorio.
+
+Los equipos deberán estar formados por 5 personas que sean desarrolladores, diseñadores y/o expertos en banca.
+
+Los equipos deberán desarrollar una aplicación web y/o móvil que utilice la API de PSD2 proporcionada el día del evento.
+
+La aplicación tiene que ser funcional, mostrando el correcto funcionamiento de la idea principal.
+
+Quedan excluidas las aplicaciones de simple registro de usuario, landing pages o mockups sin funcionalidad.
+
+--
+
+Solo se aceptarán aplicaciones desarrolladas desde cero, permitiéndose el uso de frameworks, librerías de terceros y cualquier tipo de herramientas de desarrollo.
+
+El código de la aplicación deberá subirse a un repositorio público de GitHub con una licencia libre, y la URL de dicho repositorio comunicada a la organización antes de la demo.
+
+Tanto las transparencias usadas en la demo, como un vídeo de la aplicación funcionando, deberá subirse al repositorio de GitHub antes de la demo.
+
+Los participantes serán titulares exclusivos de todos los derechos de propiedad intelectual e industrial vinculados con sus respectivos proyectos.
+
+Un jurado elegirá a los equipos ganadores, teniendo en cuenta: originalidad de la idea, dificultad técnica, viabilidad del proyecto, diseño, usabilidad, etc.
