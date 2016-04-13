@@ -1,61 +1,63 @@
-Menus:
-- #psd2Hackahon
-- Evento
-- Dinámica
-- Premios
-- Bases
-- Inscripción
-- Organizadores
+#psd2Hackathon
 
-Menus:
-- #psd2Hackahon
-  - cabecera principal bonita con:
-    - nombre
-    - descripción
-    - botón inscribete
-- Evento
-  - descripción del evento con:
-    - fecha, lugar y hora
-    - mapa y como llegar
-    - agenda
-    - botón inscribete
-- Dinámica
-  - descripción de la dinámica:
-    - 50 personas, 10 equipos, 3 ganadores
-    - pensado para desarrolladores y expertos en banca
-    - botón inscribete
-- Premios
-    - foto con los premios
-    - botón inscribete
-- Inscripción
-    - botón inscribete
-- Bases
-    - resumen con los puntos más importantes de las bases
-    - enlace a las bases en PDF
-- Organizadores
-    - logos de los organizadores (Atmira, HackathonLovers, Google Campus)
+Hackathon sobre la directiva europea de servicios de pago PSD2 que se desarrollará los días 11 y 12 de Junio en Google Campus Madrid, enfocado a desarrolladores, diseñadores y expertos en banca, y donde además de aprender, divertirte y conocer gente, podrás ganar magníficos premios. 
 
 
-Bases
+# Agenda del Hackathon
 
-El evento es gratuito, aunque el registro es obligatorio.
+Sábado 11 de junio de 2016
+­
+10:00	Recepción de participantes
+­10:30	Charla inaugural y creación de equipos
+­12:00	Inicio oficial del tiempo de desarrollo
+­14:00	Parada para comer y tomar fuerzas
+­22:00	Cierre
 
-Los equipos deberán estar formados por 5 personas que sean desarrolladores, diseñadores y/o expertos en banca.
+Domingo 12 de junio de 2016
+­
+10:00	Seguimos con el desarrollo
+­12:00	Fin oficial del tiempo de desarrollo
+­12:30	Presentaciones y demos de los distintos equipos
+­13:30	Fallo del jurado y entrega de premios
+­14:00	Clausura del evento
 
-Los equipos deberán desarrollar una aplicación web y/o móvil que utilice la API de PSD2 proporcionada el día del evento.
+# Lugar del Hackathon
 
-La aplicación tiene que ser funcional, mostrando el correcto funcionamiento de la idea principal.
+Google Campus Madrid
+Calle Moreno Nieto, 2, Madrid
 
-Quedan excluidas las aplicaciones de simple registro de usuario, landing pages o mockups sin funcionalidad.
+# Dinámica del Hackathon
 
---
+Se crearan equipos multidisciplinares (desarrolladores, diseñadores y expertos en banca) de 5 personas que tengan ganas de aprender sobre la directiva europa de medios de pago PSD2 mientras se divierten desarrollando.
 
-Solo se aceptarán aplicaciones desarrolladas desde cero, permitiéndose el uso de frameworks, librerías de terceros y cualquier tipo de herramientas de desarrollo.
+# Premios del Hackathon
 
-El código de la aplicación deberá subirse a un repositorio público de GitHub con una licencia libre, y la URL de dicho repositorio comunicada a la organización antes de la demo.
+1er equipo - 5 GoPRO HERO Session
+2do equipo - 5 FitBit Charge HR
+3er equipo - 5 Parrot Jumping Sumo
 
-Tanto las transparencias usadas en la demo, como un vídeo de la aplicación funcionando, deberá subirse al repositorio de GitHub antes de la demo.
+# Bases del Hackathon
 
-Los participantes serán titulares exclusivos de todos los derechos de propiedad intelectual e industrial vinculados con sus respectivos proyectos.
+- El evento es gratuito, aunque la inscripción es obligatoria.
 
-Un jurado elegirá a los equipos ganadores, teniendo en cuenta: originalidad de la idea, dificultad técnica, viabilidad del proyecto, diseño, usabilidad, etc.
+- Solo se aceptarán aplicaciones desarrolladas desde cero, permitiéndose el uso de frameworks, librerías de terceros y cualquier tipo de herramientas de desarrollo.
+
+- Los equipos deberán estar formados por 5 personas que sean desarrolladores, diseñadores y/o expertos en banca.
+
+- El código de la aplicación deberá subirse a un repositorio público de GitHub con una licencia libre, y la URL de dicho repositorio deberá ser comunicada a la organización antes de la demo.
+
+- Los equipos deberán desarrollar una aplicación web y/o móvil que utilice la API de PSD2 proporcionada el día del evento.
+
+- Tanto las transparencias usadas en la demo, como un vídeo de la aplicación funcionando, deberá subirse al repositorio de GitHub antes de la demo.
+
+- La aplicación tiene que ser funcional, mostrando el correcto funcionamiento de la idea principal.
+
+- Los participantes serán titulares exclusivos de todos los derechos de propiedad intelectual e industrial vinculados con sus respectivos proyectos.
+
+- Quedan excluidas las aplicaciones de simple registro de usuario, landing pages o mockups sin funcionalidad.
+
+- Un jurado elegirá a los equipos ganadores, teniendo en cuenta: originalidad de la idea, dificultad técnica, viabilidad del proyecto, diseño, usabilidad, etc.
+
+[Enlace al documento completo de las bases de hackathon]
+
+Organizadores del Hackathon
