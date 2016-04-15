@@ -30,6 +30,10 @@ Calle Moreno Nieto, 2, Madrid
 
 Se crearan equipos multidisciplinares (desarrolladores, diseñadores y expertos en banca) de 5 personas que tengan ganas de aprender sobre la directiva europa de medios de pago PSD2 mientras se divierten desarrollando.
 
+Será obligatorio el uso de las APIs que provee Open Bank Project en su versión 2.0 (que aunque está en estado 'borrador', proporciona más recursos que la versión 'estable').
+
+Para ayudaros en el desarrollo hemos creado unos ejemplos en Java en el GitHub de Atmira.
+                    
 # Premios del Hackathon
 
 1er equipo - 5 GoPRO HERO Session
@@ -40,21 +44,21 @@ Se crearan equipos multidisciplinares (desarrolladores, diseñadores y expertos 
 
 - El evento es gratuito, aunque la inscripción es obligatoria.
 
-- Solo se aceptarán aplicaciones desarrolladas desde cero, permitiéndose el uso de frameworks, librerías de terceros y cualquier tipo de herramientas de desarrollo.
-
 - Los equipos deberán estar formados por 5 personas que sean desarrolladores, diseñadores y/o expertos en banca.
 
-- El código de la aplicación deberá subirse a un repositorio público de GitHub con una licencia libre, y la URL de dicho repositorio deberá ser comunicada a la organización antes de la demo.
-
-- Los equipos deberán desarrollar una aplicación web y/o móvil que utilice la API de PSD2 proporcionada el día del evento.
-
-- Tanto las transparencias usadas en la demo, como un vídeo de la aplicación funcionando, deberá subirse al repositorio de GitHub antes de la demo.
+- Los equipos deberán desarrollar una aplicación web y/o móvil que utilice la API de Open Bank Project en su versión 2.0 (para ayudaros hemos creado unos ejemplos en Java).
 
 - La aplicación tiene que ser funcional, mostrando el correcto funcionamiento de la idea principal.
 
-- Los participantes serán titulares exclusivos de todos los derechos de propiedad intelectual e industrial vinculados con sus respectivos proyectos.
+- Quedarán excluidas las aplicaciones de simple registro de usuario, landing pages o mockups sin funcionalidad.
 
-- Quedan excluidas las aplicaciones de simple registro de usuario, landing pages o mockups sin funcionalidad.
+- Solo se aceptarán aplicaciones desarrolladas desde cero, permitiéndose el uso de frameworks, librerías de terceros y cualquier tipo de herramientas de desarrollo.
+
+- El código de la aplicación deberá subirse a un repositorio público de GitHub con una licencia libre, y la URL de dicho repositorio deberá ser comunicada a la organización antes de la demo.
+
+- Tanto las transparencias usadas en la demo, como un vídeo de la aplicación funcionando, deberá subirse al repositorio de GitHub antes de la demo.
+
+- Los participantes serán titulares exclusivos de todos los derechos de propiedad intelectual e industrial vinculados con sus respectivos proyectos.
 
 - Un jurado elegirá a los equipos ganadores, teniendo en cuenta: originalidad de la idea, dificultad técnica, viabilidad del proyecto, diseño, usabilidad, etc.
 
