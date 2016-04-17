@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="0"
      inkscape:zoom="0.175"
-     inkscape:cx="2078.0049"
+     inkscape:cx="783.71919"
      inkscape:cy="4812.9058"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -83,7 +83,9 @@
        xml:space="preserve"
        id="flowRoot3995"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:235px;line-height:125%;font-family:'Hacker Argot';-inkscape-font-specification:'Hacker Argot';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
-       transform="translate(-554.28571,-2241.4286)"><flowRegion
+       transform="translate(-554.28571,-2241.4286)"
+       inkscape:export-xdpi="377"
+       inkscape:export-ydpi="377"><flowRegion
          id="flowRegion3997"><rect
            id="rect3999"
            width="5651.4287"
@@ -93,9 +95,9 @@
            style="font-size:235px;fill:#333333" /></flowRegion><flowPara
          id="flowPara4001"
          style="font-size:437.5px"><flowSpan
-   style="fill:#ee3733;fill-opacity:1"
+   style="fill:#a05c08;fill-opacity:1"
    id="flowSpan4162">#</flowSpan>PsD2<flowSpan
-   style="fill:#ee3733;fill-opacity:1"
+   style="fill:#a05c08;fill-opacity:1"
    id="flowSpan4201">HACKATHON</flowSpan></flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4193"
