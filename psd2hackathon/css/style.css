@@ -851,7 +851,7 @@ ul.social-list li:last-child a i {
 
 #main-slide .slider-content{
 	top: 50%;
-	margin-top: -70px;
+	margin-top: -210px;
 	left: 0;
 	padding: 0;
 	text-align: center;
@@ -928,13 +928,12 @@ ul.social-list li:last-child a i {
 	font-weight: 600;
 	text-transform: uppercase;
   color: #333;
-  margin-top: -100px;
 }
 
 #main-slide .slider-content h3{
 	font-size: 3em;
-	font-weight: 300;
-	margin-top: 50px;
+	font-weight: 900;
+	margin-top: 0em;
 	text-transform: uppercase;
   text-align: center;
   color: #333;
@@ -1041,8 +1040,8 @@ ul.social-list li:last-child a i {
 /*------------------------------------------*/
 
 .page-banner {
-    padding: 30px 0;
-    background: url(../images/slide-02-bg.jpg) center;
+  padding: 30px 0;
+  background: url(../images/slide-02-bg.jpg) center;
 	border-bottom: 1px solid #eee;
 }
 

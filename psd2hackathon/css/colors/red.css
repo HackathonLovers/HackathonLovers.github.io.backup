@@ -126,6 +126,7 @@ ul.breadcrumbs li a:hover {
 .btn-system.border-btn {
 	border-color: #a05c08;
 	color: #a05c08;
+  background-color: #fff;
 }
 
 .btn-system.border-btn:hover {
