@@ -866,9 +866,9 @@ ul.social-list li:last-child a i {
 }
 
 .carousel-indicators li{
-	width: 14px !important;
-	height: 14px !important;
-	border: 2px solid #333 !important;
+	width: 20px !important;
+	height: 20px !important;
+	border: 3px solid #333 !important;
 	margin: 1px !important;
 }
 

@@ -353,8 +353,16 @@ ul.post-meta li a:hover {
     background-color: #a05c08;
 }
 
+#main-slide .carousel-indicators li {
+    background-color: #ddd;
+}
+
+#main-slide .carousel-indicators li:hover {
+    background-color: #999;
+}
+
 #main-slide .carousel-indicators .active {
-    background-color: #a05c08;
+    background-color: #333;
 }
 
 

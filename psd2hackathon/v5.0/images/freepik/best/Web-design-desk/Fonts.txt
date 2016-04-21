@@ -1,0 +1,7 @@
+Fonts used in this design;
+
+Font: TeX-Gyre-Adventor, 
+Author: GUST e-foundry, 
+Url: http://www.fontsquirrel.com/fonts/TeX-Gyre-Adventor;
+
+
