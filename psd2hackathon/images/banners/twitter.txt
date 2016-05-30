@@ -24,6 +24,10 @@ Miguel Angel Rager Senior Project Manager (Bankinter)
 https://www.linkedin.com/in/miguelrager
 @Bankinter
 
+Eduardo Fernandez (ISBAN)
+https://www.linkedin.com/in/eduardo-fernandez-g-9645b828
+@isban
+
 Ismail Chaib Project Manager (Tesobe)
 https://www.linkedin.com/in/ichaib
 @iChaib
@@ -42,8 +46,6 @@ https://www.linkedin.com/in/manuel-rodr%C3%ADguez-l%C3%B3pez-1a9b7313
 
 Hola:
 
-¿Qué tal todo?
-
 Oye mira, hemos lanzado un #hackathon para los días 11 y 12 de Junio sobre la Directiva Europa de medios de pagos #psd2.
 
 http://hackathonlovers.com/psd2hackathon/
@@ -52,10 +54,13 @@ http://hackathonlovers.com/psd2hackathon/
 
 El hashtag que estamos usando es #psd2hackathon
 
-Muchas gracias. \o/
+El tweet puede ser algo así:
 
-
+~~~
 Los 11 y 12 de Junio @HackathonLovers están organizando un #hackathon sobre #psd2 en @CampusMadrid http://hackathonlovers.com/psd2hackathon/ #psd2Hackathon
+~~~
+
+Muchas gracias. \o/
 
 
 2016-05-11
@@ -128,3 +133,24 @@ Mañana empiezo por -> @researcheneur (977)
 @jgalaron
 @Serabe
 @victor_cuervo
+
+2016-05-25
+@luisdiazdeldedo
+@raulmart75
+@apidaysMedit
+@serginator
+@ex3_tlsa
+@AlbertusLM
+@istepaniuk
+@GotaHesse
+
+2016-05-26
+@baldo_uc3m
+@lmsan_
+@g_perales
+@iamzenitram
+@ElenaTAlvarez
+@jmiguel
+@Luciadesigns
+@pconcepcion
+@chernando
