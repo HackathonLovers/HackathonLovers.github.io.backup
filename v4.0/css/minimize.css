@@ -9731,6 +9731,10 @@ ul.footer-nav li a:hover {
 	animation-name: rollOut;
 }
 /* MINIMIZE css/colors/red.css */
+.red {
+    color: #ee3733 !important;
+}
+
 a {
     color: #ee3733;
 }
