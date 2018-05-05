@@ -2177,6 +2177,36 @@ ul.icons-list li i {
 	box-sizing: content-box;
 }
 
+/*Icon Effect 0*/
+.icon-effect-0 {
+}
+
+.gray-icon.icon-effect-0 {
+	box-shadow: 0 0 0 3px #444;
+	-o-box-shadow: 0 0 0 3px #444;
+	-moz-box-shadow: 0 0 0 3px #444;
+  	-webkit-box-shadow: 0 0 0 3px #444;
+}
+
+.icon-effect-0:after {
+	top: -2px;
+	left: -2px;
+	padding: 2px;
+	z-index: -1;
+}
+
+.gray-icon.icon-effect-0:after {
+	background: #444;
+}
+
+.icon-effect-0.gray-icon:hover, .service-box:hover .gray-icon.icon-effect-0 {
+	color: #444;
+}
+
+.icon-effect-0:hover:after, .service-box:hover .icon-effect-0:after {
+
+}
+
 /*First Icon Effect */
 .icon-effect-1 {
 	background-color: #fff;
@@ -9912,7 +9942,21 @@ ul.icons-list li i {
 	color: #ee3733;
 }
 
-.icon-effect-1 {
+.icon-effect-0 {
+	box-shadow: 0 0 0 3px #ee3733;
+	-o-box-shadow: 0 0 0 3px #ee3733;
+	-moz-box-shadow: 0 0 0 3px #ee3733;
+  	-webkit-box-shadow: 0 0 0 3px #ee3733;
+}
+
+.icon-effect-0:after {
+	background-color: #ee3733;
+}
+
+.icon-effect-0:hover, .service-box:hover .icon-effect-0 {
+}
+
+.icon-effect-0 {
 	box-shadow: 0 0 0 3px #ee3733;
 	-o-box-shadow: 0 0 0 3px #ee3733;
 	-moz-box-shadow: 0 0 0 3px #ee3733;

@@ -179,7 +179,21 @@ ul.icons-list li i {
 	color: #ee3733;
 }
 
-.icon-effect-1 {
+.icon-effect-0 {
+	box-shadow: 0 0 0 3px #ee3733;
+	-o-box-shadow: 0 0 0 3px #ee3733;
+	-moz-box-shadow: 0 0 0 3px #ee3733;
+  	-webkit-box-shadow: 0 0 0 3px #ee3733;
+}
+
+.icon-effect-0:after {
+	background-color: #ee3733;
+}
+
+.icon-effect-0:hover, .service-box:hover .icon-effect-0 {
+}
+
+.icon-effect-0 {
 	box-shadow: 0 0 0 3px #ee3733;
 	-o-box-shadow: 0 0 0 3px #ee3733;
 	-moz-box-shadow: 0 0 0 3px #ee3733;
