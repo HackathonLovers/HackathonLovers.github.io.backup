@@ -682,7 +682,7 @@ window.onload = function(e) {
 
 window.onunload = function(e) {
   var title = getActiveStyleSheet();
-  createCookie("style", title, 365);
+  //createCookie("style", title, 365);
 }
 
 var cookie = readCookie("style");
