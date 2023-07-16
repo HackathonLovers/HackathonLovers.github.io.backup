@@ -21,7 +21,7 @@ concatJS() {
 echo "" > css/minimize.css
 
 concatCSS 'asset/css/bootstrap.min.css'
-concatCSS 'css/font-awesome.min.css'
+concatCSS 'css/all.min.css'
 concatCSS 'css/style.css'
 concatCSS 'css/responsive.css'
 concatCSS 'css/animate.css'

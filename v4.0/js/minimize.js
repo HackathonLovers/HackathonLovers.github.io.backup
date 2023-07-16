@@ -6377,6 +6377,7 @@ $(document).ready(function ($) {
 		
 		function scrollPage() {
 			var sy = scrollY();
+			/*
 			if ( sy >= changeHeaderOn ) {
 				$('.top-bar').slideUp(300);
 				$("header").addClass("fixed-header");
@@ -6403,6 +6404,7 @@ $(document).ready(function ($) {
 				};
 				
 			}
+			*/
 			didScroll = false;
 		}
 		

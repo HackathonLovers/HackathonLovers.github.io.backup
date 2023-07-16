@@ -509,6 +509,22 @@ ul.social-list li a.twitter:hover {
 	background-color: #63CDF1;
 }
 
+ul.social-list li a.mastodon:hover {
+	background-color: #8c8dff;
+}
+
+ul.social-list li a.discord:hover {
+	background-color: #404eed;
+}
+
+ul.social-list li a.mailchimp:hover {
+	background-color: #ffe01b;
+}
+
+ul.social-list li a.meetup:hover {
+	background-color: #f64060;
+}
+
 ul.social-list li a.google:hover {
 	background-color: #F16261;
 }
@@ -2782,6 +2798,22 @@ ul.icons-list li i {
 	background-color: #63CDF1;
 }
 
+.team-member .member-social a.mastodon:hover i {
+	background-color: #8c8dff;
+}
+
+.team-member .member-social a.discord:hover i {
+	background-color: #404eed;
+}
+
+.team-member .member-social a.mailchimp:hover i {
+	background-color: #ffe01b;
+}
+
+.team-member .member-social a.meetup:hover i {
+	background-color: #f64060;
+}
+
 .team-member .member-social a.google:hover i {
 	background-color: #F16261;
 }
@@ -3832,6 +3864,38 @@ ul.post-meta li, ul.post-meta li a {
 	background-color: #36BFED;
 }
 
+.post-share a.mastodon {
+	background-color: #8c8dff;
+}
+
+.post-share a.mastodon:hover {
+	background-color: #595aff;
+}
+
+.post-share a.discord {
+	background-color: #404eed;
+}
+
+.post-share a.discord:hover {
+	background-color: #2331b5;
+}
+
+.post-share a.mailchimp {
+	background-color: #ffe01b;
+}
+
+.post-share a.mailchimp:hover {
+	background-color: #e7b75f;
+}
+
+.post-share a.meetup {
+	background-color: #f64060;
+}
+
+.post-share a.meetup:hover {
+	background-color: #f65858;
+}
+
 .post-share a.google {
 	background-color: #F16261;
 }
@@ -4227,6 +4291,22 @@ footer a:hover {
 	background-color: #63CDF1;
 }
 
+.social-widget ul.social-icons li a.mastodon:hover i {
+	background-color: #8c8dff;
+}
+
+.social-widget ul.social-icons li a.discord:hover i {
+	background-color: #404eed;
+}
+
+.social-widget ul.social-icons li a.mailchimp:hover i {
+	background-color: #ffe01b;
+}
+
+.social-widget ul.social-icons li a.meetup:hover i {
+	background-color: #f64060;
+}
+
 .social-widget ul.social-icons li a.google:hover i {
 	background-color: #F16261;
 }
@@ -4301,6 +4381,58 @@ footer a:hover {
 }
 
 .twitter-widget ul li span {
+	color: #666;
+}
+
+.mastodon-widget a:hover {
+	color: #8c8dff;
+	text-decoration: underline;
+}
+
+.mastodon-widget ul li {
+    margin-bottom: 20px;
+}
+
+.mastodon-widget ul li span {
+	color: #666;
+}
+
+.discord-widget a:hover {
+	color: #404eed;
+	text-decoration: underline;
+}
+
+.discord-widget ul li {
+    margin-bottom: 20px;
+}
+
+.discord-widget ul li span {
+	color: #666;
+}
+
+.mailchimp-widget a:hover {
+	color: #ffe01b;
+	text-decoration: underline;
+}
+
+.mailchimp-widget ul li {
+    margin-bottom: 20px;
+}
+
+.mailchimp-widget ul li span {
+	color: #666;
+}
+
+.meetup-widget a:hover {
+	color: #f64060;
+	text-decoration: underline;
+}
+
+.meetup-widget ul li {
+    margin-bottom: 20px;
+}
+
+.meetup-widget ul li span {
 	color: #666;
 }
 
@@ -5712,12 +5844,17 @@ ul.footer-nav li a:hover {
   text-align:right; 
 }
 
-.purchase {
+.unete {
     background: url(../images/parallax/bg-01.jpg) no-repeat;
     background-attachment: fixed;
     padding: 100px 0;
 }
 
+.siguenos {
+    background: url(../images/parallax/bg-02-bis.jpg) no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
 .contacto {
     background: url(../images/parallax/bg-03.jpg) no-repeat;
     background-attachment: fixed;
